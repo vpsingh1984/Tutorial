@@ -1,0 +1,56 @@
+<div class='container'>
+	<div class='col-sm-8'>
+		<dl>
+			<dt>Item Name : </dt>
+			<dd>{{ item.name }}</dd>
+		</dl>
+
+		<dl>
+			<dt>Item Description : </dt>
+			<dd>{{ item.description }}</dd>
+		</dl>
+
+		<dl>
+			<dt>Item Image : </dt>
+			<dd><img ng-src='{{ item.image }}'></dd>
+		</dl>
+		<dl>
+			<dt>Available (In Stock) : </dt>
+			<dd class='availability'>{{ item.available | checkmark }}</dd>
+		</dl>
+
+		<dl>
+			<dd>
+				<div class='row'>
+					<div class='col-xs-4 mg-b1' ng-repeat='pic in item.pictures'>
+						<img ng-src='{{pic.medium}}'>
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+
+	<div class='col-sm-4'>
+		<div class='form-group'>
+			<label class='col-sm-3 control-label'>File</label>
+			<div class='col-sm-9'>
+				<input type='file' nv-file-select uploader='uploader' name='item_image' class='form-control'>
+			</div>
+		</div>
+
+		<div class='form-group'>
+			<label class='col-sm-3 control-label'>Preview</label>
+			<div class='col-sm-9'>
+				<img src="" name='preview' id='preview' class='img-thumbnail'>
+			</div>
+		</div>
+
+		<div class='form-group'>
+			<label class='col-sm-3 control-label'></label>
+			<div class='col-sm-9'>
+				<input type='button' class='btn btn-primary' value='Add' ng-click='uploadFile();'>
+			</div>
+		</div>
+	</div>
+
+</div>
