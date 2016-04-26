@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html ng-app='Ekart'>
   <head>
-    <title>Ekart</title>
+    <title>Tutorial For You</title>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= csrf_meta_tags %>
   </head>
   <body>
     <nav class="navbar navbar-default">
-      <%= render 'layouts/header' %>
+      <%= render 'layouts/nav' %>
     </nav>
+    <header>
+        <%= render 'layouts/header' %>
+    </header>
     <main>
       <%= yield %>
     </main>
     <footer>
       <%= render 'layouts/footer' %>
     </footer>
+
+<script type="text/javascript">
+  
+// $(document).ready(function(){
+//   $('.carousel').carousel({
+//     interval: 2000
+//   })
+// });
+
+</script>
+
   </body>
   <%= javascript_include_tag 'application' %>
 </html>
