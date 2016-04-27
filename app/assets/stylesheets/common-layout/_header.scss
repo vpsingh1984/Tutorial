@@ -53,6 +53,83 @@
 		a.light-magenta{
 			background-color: $light-magenta;
 		}
+
+		.light-blue {
+		    color: #93CBF9!important;
+
+		    a {
+			    background-color: #62A8D1;
+
+			    .nav-user-photo {
+				    margin: -4px 8px 0 0;
+				    border-radius: 100%;
+				    border: 2px solid #FFF;
+				    max-width: 40px;
+				        vertical-align: middle;
+				}
+				.user-info {
+				    max-width: 100px;
+				    display: inline-block;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    white-space: nowrap;
+				    text-align: left;
+				    vertical-align: top;
+				    line-height: 15px;
+				    position: relative;
+				    top: 6px;
+
+				    small {
+					    display: block;
+					}
+				}
+			}
+
+			.user-menu {
+			    position: fixed;
+			    margin-top: auto;
+			    z-index: 1052;
+			    left: auto;
+			    right: 5px;
+		        top: 46px;
+			    border-radius: 0!important;
+			    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+
+			    li {
+			    	width: 100%;
+			    	a {
+					    font-size: 13px;
+					    color: #000;
+					    padding: 4px 12px;
+					    margin: 1px auto;
+					    background: transparent;
+					    .ace-icon {
+						    margin-right: 6px;
+						    font-size: 120%;
+						}
+			    }
+			}
+		}
+	}
+
+
+
+	}
+}
+ol, ul {
+    padding: 0;
+}
+
+
+
+
+
+@media (min-width: 992px){
+	.navbar-toggle {
+	    display: none;
+	}
+	.navbar-header {
+	    float: left;
 	}
 	
 }

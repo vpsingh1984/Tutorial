@@ -24,7 +24,7 @@
     -webkit-box-shadow: none;
     box-shadow: none; 
     min-height: 45px;
-    background: #438EB9;
+    background: $skyblue-color;
 
     .navbar-toggle{
 	    border: 1px solid transparent;
@@ -161,6 +161,10 @@
 				    line-height: 15px;
 				    position: relative;
 				    top: 6px;
+
+				    small{
+				    	display: block;
+				    }
 				}
 			}
 
