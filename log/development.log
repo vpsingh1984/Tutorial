@@ -9494,7 +9494,6 @@ Processing by ItemsController#show as JSON
 Completed 200 OK in 5ms (Views: 0.1ms)
 
 
-<<<<<<< Updated upstream
 Started GET "/" for 127.0.0.1 at 2016-04-26 23:32:00 +0530
 Processing by ItemsController#index as HTML
   Rendered items/index.html.erb within layouts/application (1.4ms)
@@ -9507,20 +9506,6 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-26 23:32:0
 
 
 Started GET "/dist/avatars/avatar.png" for 127.0.0.1 at 2016-04-26 23:32:00 +0530
-=======
-Started GET "/" for 127.0.0.1 at 2016-04-26 20:26:23 +0530
-Processing by ItemsController#index as HTML
-  Rendered items/index.html.erb within layouts/application (1.2ms)
-  Rendered layouts/_header.html.erb (6.2ms)
-  Rendered layouts/_footer.html.erb (0.4ms)
-Completed 200 OK in 273ms (Views: 272.7ms)
-
-
-Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-26 20:26:24 +0530
-
-
-Started GET "/dist/avatars/avatar.png" for 127.0.0.1 at 2016-04-26 20:26:24 +0530
->>>>>>> Stashed changes
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar.png"):
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -21110,6 +21095,7 @@ Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.1" for 1
 Started GET "/items.json" for 127.0.0.1 at 2016-04-27 01:53:36 +0530
 Processing by ItemsController#index as JSON
 Completed 200 OK in 2ms (Views: 0.2ms)
+<<<<<<< Updated upstream
 =======
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
@@ -22973,6 +22959,23 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-27 17:51:4
 
 
 Started GET "/dist/avatars/avatar.png" for 127.0.0.1 at 2016-04-27 17:51:40 +0530
+=======
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-28 22:55:27 +0530
+Processing by ItemsController#index as HTML
+  Rendered items/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 699ms (Views: 698.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/dist/avatars/avatar.png" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+>>>>>>> Stashed changes
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar.png"):
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -23014,6 +23017,7 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar.png
   bin/rails:4:in `<main>'
 
 
+<<<<<<< Updated upstream
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
@@ -23110,6 +23114,59 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar3.pn
 Started GET "/dist/avatars/avatar4.png" for 127.0.0.1 at 2016-04-27 17:51:40 +0530
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar4.png"):
+=======
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/controllers.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/filters.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/angular.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/angular-route.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/angular-resource.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/angularjs-file-upload.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.1" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+
+Started GET "/dist/avatars/user.jpg" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/dist/avatars/user.jpg"):
+>>>>>>> Stashed changes
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
   railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
@@ -23149,6 +23206,7 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar4.pn
   bin/rails:4:in `<main>'
 
 
+<<<<<<< Updated upstream
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.1ms)
@@ -23158,6 +23216,17 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar4.pn
 Started GET "/dist/avatars/avatar2.png" for 127.0.0.1 at 2016-04-27 17:51:41 +0530
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar2.png"):
+=======
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/dist/avatars/avatar4.png" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar4.png"):
+>>>>>>> Stashed changes
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
   railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
@@ -23197,6 +23266,7 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar2.pn
   bin/rails:4:in `<main>'
 
 
+<<<<<<< Updated upstream
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
@@ -23204,6 +23274,15 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar2.pn
 
 
 Started GET "/dist/avatars/avatar5.png" for 127.0.0.1 at 2016-04-27 17:51:41 +0530
+=======
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.5ms)
+
+
+Started GET "/dist/avatars/avatar5.png" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+>>>>>>> Stashed changes
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar5.png"):
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -23245,6 +23324,7 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar5.pn
   bin/rails:4:in `<main>'
 
 
+<<<<<<< Updated upstream
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.4ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
@@ -23419,6 +23499,15 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar4.pn
 
 
 Started GET "/dist/avatars/avatar2.png" for 127.0.0.1 at 2016-04-27 17:56:33 +0530
+=======
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+
+
+Started GET "/dist/avatars/avatar2.png" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+>>>>>>> Stashed changes
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar2.png"):
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -23460,6 +23549,7 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar2.pn
   bin/rails:4:in `<main>'
 
 
+<<<<<<< Updated upstream
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
@@ -23478,6 +23568,17 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-04-27 17:56:33 
 Started GET "/dist/avatars/avatar5.png" for 127.0.0.1 at 2016-04-27 17:56:33 +0530
 
 ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar5.png"):
+=======
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.1ms)
+
+
+Started GET "/dist/avatars/avatar3.png" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar3.png"):
+>>>>>>> Stashed changes
   actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
   railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
@@ -23517,6 +23618,7 @@ ActionController::RoutingError (No route matches [GET] "/dist/avatars/avatar5.pn
   bin/rails:4:in `<main>'
 
 
+<<<<<<< Updated upstream
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
   Rendered /home/vijay/.rvm/gems/ruby-2.3.0@rails4.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.0ms)
@@ -23562,3 +23664,14 @@ Started GET "/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.1" for 1
 Started GET "/items.json" for 127.0.0.1 at 2016-04-27 17:56:34 +0530
 Processing by ItemsController#index as JSON
 Completed 200 OK in 2ms (Views: 0.2ms)
+=======
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/vijay/.rvm/gems/ruby-2.0.0-p643/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.2ms)
+
+
+Started GET "/items.json" for 127.0.0.1 at 2016-04-28 22:55:28 +0530
+Processing by ItemsController#index as JSON
+Completed 200 OK in 56ms (Views: 0.3ms)
+>>>>>>> Stashed changes

@@ -1,0 +1,33 @@
+
+.all-questions-panel{
+	width: 100%;
+	padding: ($common-gap - 10) ($common-gap - 5) ;
+	border-bottom: $padding-xs-vertical solid $gray-lighter;
+	border-left: $padding-small-vertical solid $light-yellow;
+	margin-bottom: $common-gap - 10;
+
+	.text-primary{
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	.options{
+		margin-top: $common-gap - 10;
+
+		a{
+			margin-right: $common-gap - 10;
+		}
+		a.views{
+			cursor: auto;
+		}
+		.badge{
+			padding: $common-gap - 15;
+			border-radius: 0;
+		}
+	}
+
+	&:hover{
+		background-color: $gray-lighter;
+		border-left-color: $gray;
+	}
+}
