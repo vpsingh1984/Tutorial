@@ -11,7 +11,7 @@ var ekartApp = angular.module('Ekart',
 ekartApp.config(['$routeProvider', function($routeProvider){
 	$routeProvider.
 		when('/', {
-			templateUrl: 'public/index.html',
+			templateUrl: 'partials/item-list.html',
 			controller: 'HomeController'
 		}).
 		when('/:id', {

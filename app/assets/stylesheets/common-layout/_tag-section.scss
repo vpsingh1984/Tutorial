@@ -1,0 +1,28 @@
+
+.tag-section{
+	
+	.page-header{
+		padding-top: $common-gap - 10 ;
+		padding-bottom: $common-gap - 10 ;
+		margin: 0 0 ($common-gap - 5);
+	}
+}
+
+.popular-question{
+	margin-top: $common-gap + 10 ;
+}
+
+.popular-question-box{
+	margin-bottom: $common-gap - 10 ;
+
+	.user-img{
+		@include square($size: 28px);
+		float: left;
+		margin-right: $common-gap - 15 ;
+
+		img{
+			@extend .common-user-img ;
+			@include square($size: 100%);
+		}
+	}
+}

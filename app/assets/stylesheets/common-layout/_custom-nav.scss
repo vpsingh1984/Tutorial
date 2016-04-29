@@ -15,6 +15,13 @@
     -moz-animation-name: nodeInserted;
     -webkit-animation-name: nodeInserted;
 }
+.common-user-img{
+	margin: -4px 8px 0 0;
+    border-radius: 100%;
+    border: 2px solid #FFF;
+    max-width: 40px;
+    vertical-align: middle;
+}
 .navbar {
     margin: 0;
     padding-left: 0; 
@@ -144,11 +151,7 @@
 			    background-color: #62A8D1;
 
 			    .nav-user-photo {
-				    margin: -4px 8px 0 0;
-				    border-radius: 100%;
-				    border: 2px solid #FFF;
-				    max-width: 40px;
-				        vertical-align: middle;
+				    @extend .common-user-img ;
 				}
 				.user-info {
 				    max-width: 100px;
