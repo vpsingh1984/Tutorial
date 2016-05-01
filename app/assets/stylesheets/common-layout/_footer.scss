@@ -1,4 +1,34 @@
 
 footer{
-	
+	background: $gray-dark;
+	color: $body-bg;
+	padding-bottom: $common-gap*2;
+	margin-top: $common-gap*2;
+
+	.social-container{
+		margin-top: $common-gap;
+		font-size: $font-size-h1;
+		overflow: hidden;
+
+		div{
+			margin: $padding-xs-vertical 0;
+			width: 100%;
+    		overflow: hidden;
+		}
+
+		a{
+			@include square($size: 25px);
+			padding: $common-gap;
+			background-color: $gray-darker;
+			@extend .text-center ;
+
+			i{
+				color: $body-bg;
+				/*width: $common-gap + 10 ;*/
+			}
+		}
+		span{
+			color: $body-bg;
+		}
+	}
 }
