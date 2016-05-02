@@ -14,21 +14,22 @@ footer{
 			margin: $padding-xs-vertical 0;
 			width: 100%;
     		overflow: hidden;
+    		background-color: $gray;
 		}
 
 		a{
-			@include square($size: 25px);
+			@include square($size: 65px);
 			padding: $common-gap;
-			background-color: $gray-darker;
+			/*background-color: $gray-darker;*/
 			@extend .text-center ;
 
-			i{
+			.fa{
 				color: $body-bg;
-				/*width: $common-gap + 10 ;*/
 			}
 		}
 		span{
 			color: $body-bg;
+			font-size: $font-size-h3;
 		}
 	}
 }
