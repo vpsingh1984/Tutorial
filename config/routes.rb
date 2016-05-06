@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'items#index'
+  devise_for :users
+  
+  root 'home#index'
 
   resources :items do
   	member do

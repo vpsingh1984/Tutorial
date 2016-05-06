@@ -1,4 +1,4 @@
-class Item
+class Home
 
 	include Mongoid::Document
 	
